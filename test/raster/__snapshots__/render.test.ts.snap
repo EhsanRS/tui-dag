@@ -1,0 +1,829 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/rounded 1`] = `
+"●  initial prompt
+│
+●  refine plan
+├─╮
+│ ●  approach B
+● │  approach A
+│ ●  B: tests pass
+●─╯  merge B into A
+│
+●  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/rounded/inline 1`] = `
+"●  initial prompt
+●─╮  refine plan
+│ ●  approach B
+● │  approach A
+│ ●  B: tests pass
+●─╯  merge B into A
+●  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/square 1`] = `
+"●  initial prompt
+│
+●  refine plan
+├─┐
+│ ●  approach B
+● │  approach A
+│ ●  B: tests pass
+●─┘  merge B into A
+│
+●  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/square/inline 1`] = `
+"●  initial prompt
+●─┐  refine plan
+│ ●  approach B
+● │  approach A
+│ ●  B: tests pass
+●─┘  merge B into A
+●  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/heavy 1`] = `
+"●  initial prompt
+┃
+●  refine plan
+┣━┓
+┃ ●  approach B
+● ┃  approach A
+┃ ●  B: tests pass
+●━┛  merge B into A
+┃
+●  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/heavy/inline 1`] = `
+"●  initial prompt
+●━┓  refine plan
+┃ ●  approach B
+● ┃  approach A
+┃ ●  B: tests pass
+●━┛  merge B into A
+●  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/ascii 1`] = `
+"*  initial prompt
+|
+*  refine plan
+|-\\
+| *  approach B
+* |  approach A
+| *  B: tests pass
+*-/  merge B into A
+|
+*  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: picture/ascii/inline 1`] = `
+"*  initial prompt
+*-\\  refine plan
+| *  approach B
+* |  approach A
+| *  B: tests pass
+*-/  merge B into A
+*  final answer"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/rounded 1`] = `
+"●  A
+│
+●  B
+│
+●  C
+│
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/rounded/inline 1`] = `
+"●  A
+●  B
+●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/square 1`] = `
+"●  A
+│
+●  B
+│
+●  C
+│
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/square/inline 1`] = `
+"●  A
+●  B
+●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/heavy 1`] = `
+"●  A
+┃
+●  B
+┃
+●  C
+┃
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/heavy/inline 1`] = `
+"●  A
+●  B
+●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/ascii 1`] = `
+"*  A
+|
+*  B
+|
+*  C
+|
+*  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: linear/ascii/inline 1`] = `
+"*  A
+*  B
+*  C
+*  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/rounded 1`] = `
+"●  A
+├─╮
+● │  B
+│ ●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/rounded/inline 1`] = `
+"●─╮  A
+● │  B
+│ ●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/square 1`] = `
+"●  A
+├─┐
+● │  B
+│ ●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/square/inline 1`] = `
+"●─┐  A
+● │  B
+│ ●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/heavy 1`] = `
+"●  A
+┣━┓
+● ┃  B
+┃ ●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/heavy/inline 1`] = `
+"●━┓  A
+● ┃  B
+┃ ●  C
+●  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/ascii 1`] = `
+"*  A
+|-\\
+* |  B
+| *  C
+*  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: fork/ascii/inline 1`] = `
+"*-\\  A
+* |  B
+| *  C
+*  D"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/rounded 1`] = `
+"●  R
+│ ●  S
+● │  X
+│ ●  Y
+●─╯  M
+●  Z
+│
+●  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/rounded/inline 1`] = `
+"●  R
+│ ●  S
+● │  X
+│ ●  Y
+●─╯  M
+  ●  Z
+  ●  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/square 1`] = `
+"●  R
+│ ●  S
+● │  X
+│ ●  Y
+●─┘  M
+●  Z
+│
+●  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/square/inline 1`] = `
+"●  R
+│ ●  S
+● │  X
+│ ●  Y
+●─┘  M
+  ●  Z
+  ●  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/heavy 1`] = `
+"●  R
+┃ ●  S
+● ┃  X
+┃ ●  Y
+●━┛  M
+●  Z
+┃
+●  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/heavy/inline 1`] = `
+"●  R
+┃ ●  S
+● ┃  X
+┃ ●  Y
+●━┛  M
+  ●  Z
+  ●  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/ascii 1`] = `
+"*  R
+| *  S
+* |  X
+| *  Y
+*-/  M
+*  Z
+|
+*  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: twoRoots/ascii/inline 1`] = `
+"*  R
+| *  S
+* |  X
+| *  Y
+*-/  M
+  *  Z
+  *  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/rounded 1`] = `
+"●  A
+├─┬─╮
+│ ● │  B
+│ │ ●  C
+● │ │  D
+│ ● │  E
+│   ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/rounded/inline 1`] = `
+"●─┬─╮  A
+│ ● │  B
+│ │ ●  C
+● │ │  D
+│ ● │  E
+│   ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/square 1`] = `
+"●  A
+├─┬─┐
+│ ● │  B
+│ │ ●  C
+● │ │  D
+│ ● │  E
+│   ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/square/inline 1`] = `
+"●─┬─┐  A
+│ ● │  B
+│ │ ●  C
+● │ │  D
+│ ● │  E
+│   ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/heavy 1`] = `
+"●  A
+┣━┳━┓
+┃ ● ┃  B
+┃ ┃ ●  C
+● ┃ ┃  D
+┃ ● ┃  E
+┃   ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/heavy/inline 1`] = `
+"●━┳━┓  A
+┃ ● ┃  B
+┃ ┃ ●  C
+● ┃ ┃  D
+┃ ● ┃  E
+┃   ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/ascii 1`] = `
+"*  A
+|---\\
+| * |  B
+| | *  C
+* | |  D
+| * |  E
+|   *  F
+*  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: threeWay/ascii/inline 1`] = `
+"*---\\  A
+| * |  B
+| | *  C
+* | |  D
+| * |  E
+|   *  F
+*  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/rounded 1`] = `
+"●  A
+├─┬─╮
+● │ │  B
+│ ● │  C
+│ │ ●  D
+●─┴─╯  M
+│
+●  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/rounded/inline 1`] = `
+"●─┬─╮  A
+● │ │  B
+│ ● │  C
+│ │ ●  D
+●─┴─╯  M
+●  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/square 1`] = `
+"●  A
+├─┬─┐
+● │ │  B
+│ ● │  C
+│ │ ●  D
+●─┴─┘  M
+│
+●  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/square/inline 1`] = `
+"●─┬─┐  A
+● │ │  B
+│ ● │  C
+│ │ ●  D
+●─┴─┘  M
+●  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/heavy 1`] = `
+"●  A
+┣━┳━┓
+● ┃ ┃  B
+┃ ● ┃  C
+┃ ┃ ●  D
+●━┻━┛  M
+┃
+●  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/heavy/inline 1`] = `
+"●━┳━┓  A
+● ┃ ┃  B
+┃ ● ┃  C
+┃ ┃ ●  D
+●━┻━┛  M
+●  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/ascii 1`] = `
+"*  A
+|---\\
+* | |  B
+| * |  C
+| | *  D
+*---/  M
+|
+*  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: octopus/ascii/inline 1`] = `
+"*---\\  A
+* | |  B
+| * |  C
+| | *  D
+*---/  M
+*  N"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/rounded 1`] = `
+"●  A
+├─╮
+│ ●  B
+│ ├─╮
+● │ │  C
+├─┼─┼─╮
+│ ●─┼─╯  D
+●─┼─╯  E
+│ ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/rounded/inline 1`] = `
+"●─╮  A
+│ ●─╮  B
+●─┼─┼─╮  C
+│ ●─┼─╯  D
+●─┼─╯  E
+│ ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/square 1`] = `
+"●  A
+├─┐
+│ ●  B
+│ ├─┐
+● │ │  C
+├─┼─┼─┐
+│ ●─┼─┘  D
+●─┼─┘  E
+│ ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/square/inline 1`] = `
+"●─┐  A
+│ ●─┐  B
+●─┼─┼─┐  C
+│ ●─┼─┘  D
+●─┼─┘  E
+│ ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/heavy 1`] = `
+"●  A
+┣━┓
+┃ ●  B
+┃ ┣━┓
+● ┃ ┃  C
+┣━╋━╋━┓
+┃ ●━╋━┛  D
+●━╋━┛  E
+┃ ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/heavy/inline 1`] = `
+"●━┓  A
+┃ ●━┓  B
+●━╋━╋━┓  C
+┃ ●━╋━┛  D
+●━╋━┛  E
+┃ ●  F
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/ascii 1`] = `
+"*  A
+|-\\
+| *  B
+| |-\\
+* | |  C
+|-+-+-\\
+| *-+-/  D
+*-+-/  E
+| *  F
+*  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: crissCross/ascii/inline 1`] = `
+"*-\\  A
+| *-\\  B
+*-+-+-\\  C
+| *-+-/  D
+*-+-/  E
+| *  F
+*  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/rounded 1`] = `
+"●  A
+├─╮
+● │  B
+├─┼─╮
+● │ │  C
+│ │ ●  D
+● │ │  E
+│ │ │
+●─┼─╯  F
+│ ●  X
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/rounded/inline 1`] = `
+"●─╮  A
+●─┼─╮  B
+● │ │  C
+│ │ ●  D
+● │ │  E
+●─┼─╯  F
+│ ●  X
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/square 1`] = `
+"●  A
+├─┐
+● │  B
+├─┼─┐
+● │ │  C
+│ │ ●  D
+● │ │  E
+│ │ │
+●─┼─┘  F
+│ ●  X
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/square/inline 1`] = `
+"●─┐  A
+●─┼─┐  B
+● │ │  C
+│ │ ●  D
+● │ │  E
+●─┼─┘  F
+│ ●  X
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/heavy 1`] = `
+"●  A
+┣━┓
+● ┃  B
+┣━╋━┓
+● ┃ ┃  C
+┃ ┃ ●  D
+● ┃ ┃  E
+┃ ┃ ┃
+●━╋━┛  F
+┃ ●  X
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/heavy/inline 1`] = `
+"●━┓  A
+●━╋━┓  B
+● ┃ ┃  C
+┃ ┃ ●  D
+● ┃ ┃  E
+●━╋━┛  F
+┃ ●  X
+●  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/ascii 1`] = `
+"*  A
+|-\\
+* |  B
+|-+-\\
+* | |  C
+| | *  D
+* | |  E
+| | |
+*-+-/  F
+| *  X
+*  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: longEdge/ascii/inline 1`] = `
+"*-\\  A
+*-+-\\  B
+* | |  C
+| | *  D
+* | |  E
+*-+-/  F
+| *  X
+*  G"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/rounded 1`] = `
+"●  P
+├─╮
+│ ●  Q
+● │  R
+│ │
+●─╯  X
+├─╮
+● │  Y
+│ ●  Z
+●─╯  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/rounded/inline 1`] = `
+"●─╮  P
+│ ●  Q
+● │  R
+●─┴─╮  X
+●   │  Y
+│   ●  Z
+●───╯  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/square 1`] = `
+"●  P
+├─┐
+│ ●  Q
+● │  R
+│ │
+●─┘  X
+├─┐
+● │  Y
+│ ●  Z
+●─┘  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/square/inline 1`] = `
+"●─┐  P
+│ ●  Q
+● │  R
+●─┴─┐  X
+●   │  Y
+│   ●  Z
+●───┘  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/heavy 1`] = `
+"●  P
+┣━┓
+┃ ●  Q
+● ┃  R
+┃ ┃
+●━┛  X
+┣━┓
+● ┃  Y
+┃ ●  Z
+●━┛  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/heavy/inline 1`] = `
+"●━┓  P
+┃ ●  Q
+● ┃  R
+●━┻━┓  X
+●   ┃  Y
+┃   ●  Z
+●━━━┛  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/ascii 1`] = `
+"*  P
+|-\\
+| *  Q
+* |  R
+| |
+*-/  X
+|-\\
+* |  Y
+| *  Z
+*-/  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: laneReuse/ascii/inline 1`] = `
+"*-\\  P
+| *  Q
+* |  R
+*---\\  X
+*   |  Y
+|   *  Z
+*---/  W"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/rounded 1`] = `
+"●  P1
+│
+●  P2
+├─╮
+│ ●  P3
+●  C1
+│
+●  C2"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/rounded/inline 1`] = `
+"●  P1
+●─╮  P2
+│ ●  P3
+●  C1
+●  C2"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/square 1`] = `
+"●  P1
+│
+●  P2
+├─┐
+│ ●  P3
+●  C1
+│
+●  C2"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/square/inline 1`] = `
+"●  P1
+●─┐  P2
+│ ●  P3
+●  C1
+●  C2"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/heavy 1`] = `
+"●  P1
+┃
+●  P2
+┣━┓
+┃ ●  P3
+●  C1
+┃
+●  C2"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/heavy/inline 1`] = `
+"●  P1
+●━┓  P2
+┃ ●  P3
+●  C1
+●  C2"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/ascii 1`] = `
+"*  P1
+|
+*  P2
+|-\\
+| *  P3
+*  C1
+|
+*  C2"
+`;
+
+exports[`renderToString snapshots for every fixture and glyph set: sideBranchNewer/ascii/inline 1`] = `
+"*  P1
+*-\\  P2
+| *  P3
+*  C1
+*  C2"
+`;

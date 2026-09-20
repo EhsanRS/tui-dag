@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opentui-dag",
+  "version": "0.1.0",
+  "description": "Lane-graph (branching timeline) renderable for OpenTUI: DAG layout, box-drawing rasteriser, Solid bindings",
+  "type": "module",
+  "license": "MIT",
+  "author": "Ehsan Razaghi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EhsanRS/tui-dag"
+  },
+  "keywords": [
+    "opentui",
+    "tui",
+    "dag",
+    "graph",
+    "timeline",
+    "git-graph",
+    "solid"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./opentui": "./src/opentui/index.ts",
+    "./solid": "./src/solid/index.tsx"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "peerDependencies": {
+    "@opentui/core": "0.4.5",
+    "@opentui/solid": "0.4.5",
+    "solid-js": "1.9.10"
+  },
+  "peerDependenciesMeta": {
+    "@opentui/solid": {
+      "optional": true
+    },
+    "solid-js": {
+      "optional": true
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "@opentui/core": "0.4.5",
+    "@opentui/solid": "0.4.5",
+    "@tsconfig/bun": "1.0.9",
+    "@types/bun": "1.3.13",
+    "oxlint": "1.60.0",
+    "oxlint-tsgolint": "0.21.0",
+    "prettier": "3.6.2",
+    "solid-js": "1.9.10",
+    "typescript": "5.8.2"
+  }
+}

@@ -1,0 +1,66 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`investigation generator renders a stable picture for a fixed seed 1`] = `
+"●  kickoff
+│
+●  assigns genomics
+├─╮
+│ ●  genomics
+● │  assigns imaging
+├─┼─────╮
+│ │     ●  imaging
+│ │     │
+│ │     ●  scoping · 2 agents
+│ │     ├─┬─╮
+● │     │ │ │  assigns clinical
+├─┼─────┼─┼─┼───╮
+│ │     │ ○ │   │  analyst
+│ │     │ │ │   ●  clinical
+│ │     │ │ │   │
+│ │     │ │ │   ●  scoping · 3 agents
+│ │     │ │ │   ├─┬─┬─╮
+│ ●     │ │ │   │ │ │ │  scoping
+│ │     │ │ │   │ │ │ │
+│ ●     │ │ │   │ │ │ │  data · 2 agents
+│ ├─┬─╮ │ │ │   │ │ │ │
+│ │ │ │ │ │ ○   │ │ │ │  reviewer
+│ │ │ │ │ │ │   │ ○ │ │  coder
+│ │ ○ │ │ │ │   │ │ │ │  coder
+│ │ │ │ │ │ │   │ │ ○ │  coder
+│ │ │ ○ │ │ │   │ │ │ │  reviewer
+│ │ │ │ ●─┴─╯   │ │ │ │  done
+│ │ │ │ │       │ │ │ │
+│ │ │ │ ●       │ │ │ │  report
+│ │ │ │ ├─╮     │ │ │ │
+│ │ │ ○ │ │     │ │ │ │  reviewer
+│ │ │ │ │ │     │ │ │ ○  curator
+●─┼─┼─┼─┼─╯     │ │ │ │  check-in · 1 report
+│ ●─┴─╯ │       │ │ │ │  done
+│ │     ●       │ │ │ │  data · 3 agents
+│ │     ├─┬─┬─╮ │ │ │ │
+│ │     │ │ │ │ │ │ │ ○  curator
+│ ●     │ │ │ │ │ │ │ │  delivered
+│ │     │ │ │ │ ●─┴─┴─╯  done
+│ │     │ ○ │ │ │  analyst
+│ │     │ │ │ │ ●  data · 1 agent
+│ │     │ │ │ │ ├─╮
+│ │     │ │ ○ │ │ │  curator
+│ │     │ │ │ ○ │ │  analyst
+│ │     │ │ │ │ │ ○  analyst
+│ │     │ │ │ ○ │ │  analyst
+│ │     │ │ │ │ │ ○  analyst
+│ │     │ │ ○ │ │ │  curator
+│ │     │ │ │ │ ●─╯  done
+│ │     ●─┴─┴─╯ │  done
+│ │     │       ●  delivered
+│ │     ●       │  analysis · 2 agents
+│ │     ├─┬─╮   │
+│ │     │ ○ │   │  curator
+│ │     │ │ ○   │  coder
+│ │     │ ○ │   │  curator
+● │     │ │ │   │  check-in
+│ │     ●─┴─╯   │  done
+│ │     │       │
+│ │     ●       │  delivered
+◉─┴─────┴───────╯  final report"
+`;

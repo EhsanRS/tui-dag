@@ -1,0 +1,31 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`laneAllocation nearest keeps the child to the right of its parent 1`] = `
+"●
+├─┬─╮
+● │ │
+│ ● │
+│   ●
+●   │
+│   ●
+│   ├─╮
+│   │ ●
+│   ● │
+│   │ ●
+│   ●─╯
+●"
+`;
+
+exports[`laneAllocation nearest opens a lane to the right of its parent instead 1`] = `
+"●─┬─╮
+● │ │
+│ ● │
+│   ●
+●   │
+│   ●─╮
+│   │ ●
+│   ● │
+│   │ ●
+│   ●─╯
+●"
+`;

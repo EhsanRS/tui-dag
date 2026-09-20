@@ -1,0 +1,22 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`laneAllocation: nested a later team starts right of the earlier team's whole block 1`] = `
+"●  L0
+│
+●  LA
+├─╮
+│ ●  A1
+│ ├─┬─╮
+│ │ ● │  a1
+│ │ │ ●  a2
+│ ●─┼─╯  A1b
+● │ │  LB
+├─┼─┼───╮
+│ │ │   ●  B1
+│ │ │   ├─╮
+│ │ ●   │ │  a1b
+│ ●─╯   │ │  A2
+│ │     │ ●  b1
+│ │     ●─╯  B2
+●─┴─────╯  F"
+`;
